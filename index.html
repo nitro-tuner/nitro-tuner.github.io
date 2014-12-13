@@ -2,9 +2,9 @@
 <html>
 
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Nitro : Automatic Performance Tuning Framework" />
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Nitro : Automatic Performance Tuning Framework">
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
@@ -28,18 +28,17 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h2>
-<a name="overview" class="anchor" href="#overview"><span class="octicon octicon-link"></span></a>Overview</h2>
+<a id="overview" class="anchor" href="#overview" aria-hidden="true"><span class="octicon octicon-link"></span></a>Overview</h2>
 
 <p>Nitro is a programmer-directed code variant tuning framework, jointly developed by the <a href="http://www.cs.utah.edu">University of Utah</a> and <a href="http://research.nvidia.com">NVIDIA Research</a>.</p>
 
-<p>Nitro provides a library interface that permits programmers to express code variants (alternative implementations of a computation) along with meta-information that aids the system in selecting among the set of variants at run time. </p>
+<p>Nitro utilizes machine learning-based classification to automatically find the best implementation (variant) of a computation for a given input. It provides C++ and Python interfaces for programmers to specify variants, input dataset features, and constraints. In 5 real-world irregular GPU benchmarks, Nitro-tuned variants achieve over 93% of the performance achieved by variants selected through exhaustive search on new, unseen inputs.</p>
 
-<p>Machine learning is employed to build a model through training on this meta-information, so that when a new input is presented, Nitro can consult the model to select the appropriate variant.</p>
-
-<p><strong>Release Update [Jul/2014]:</strong> Code release is planned for Fall, 2014. Thank you for your patience.</p>
+<p><strong>Update [Dec/2014]:</strong> There will be a talk on Nitro at <a href="https://registration.gputechconf.com/form/session-listing">GTC 2015</a> (Session S5520). See you there!
+<strong>Update [Dec/2014]:</strong> Code release planned for March, 2015.</p>
 
 <h2>
-<a name="publications" class="anchor" href="#publications"><span class="octicon octicon-link"></span></a>Publications</h2>
+<a id="publications" class="anchor" href="#publications" aria-hidden="true"><span class="octicon octicon-link"></span></a>Publications</h2>
 
 <p>Check out the following paper for an overview of Nitro's design, and some initial results showcasing Nitro's effectiveness.</p>
 
