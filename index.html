@@ -1,32 +1,30 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Nitro : Automatic Performance Tuning Framework">
+    <title>Nitro by nitro-tuner</title>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <title>Nitro</title>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
-
   <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/nitro-tuner">View on GitHub</a>
-
-          <h1 id="project_title">Nitro</h1>
-          <h2 id="project_tagline">Automatic Performance Tuning Framework</h2>
-
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
+    <div class="wrapper">
+      <header>
+        <h1>Nitro</h1>
+        <p>Automatic Performance Tuning Framework</p>
+        <p class="view"><a href="https://github.com/nitro-tuner">View the Project on GitHub <small>nitro-tuner</small></a></p>
+        <ul>
+          <li class="single"><a href="https://github.com/nitro-tuner/nitro-tuner.github.io">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
         <h2>
 <a id="overview" class="anchor" href="#overview" aria-hidden="true"><span class="octicon octicon-link"></span></a>Overview</h2>
 
@@ -34,9 +32,10 @@
 
 <p>Nitro utilizes machine learning-based classification to automatically find the best implementation (variant) of a computation for a given input. It provides C++ and Python interfaces for programmers to specify variants, input dataset features, and constraints. In 5 real-world irregular GPU benchmarks, Nitro-tuned variants achieve over 93% of the performance achieved by variants selected through exhaustive search on new, unseen inputs.</p>
 
-<p><strong>Update [Dec/2014]:</strong> There will be a talk on Nitro at <a href="https://registration.gputechconf.com/form/session-listing">GTC 2015</a> (Session S5520). See you there!</p>
+<h2>
+<a id="getting-started" class="anchor" href="#getting-started" aria-hidden="true"><span class="octicon octicon-link"></span></a>Getting Started</h2>
 
-<p><strong>Update [Dec/2014]:</strong> Code release planned for March, 2015.</p>
+<p>You can download a pre-alpha version of Nitro from <a href="">here</a>. Alternatively, feel free to clone from the <a href="https://github.com/nitro-tuner/nitro">Github repository</a> directly. For installation instructions and getting started, check out the <a href="">tutorial</a>.</p>
 
 <h2>
 <a id="publications" class="anchor" href="#publications" aria-hidden="true"><span class="octicon octicon-link"></span></a>Publications</h2>
@@ -47,14 +46,10 @@
 <br><em>S. Muralidharan, M. Shantharam, M. Hall, M. Garland, B. Catanzaro</em>; Proceedings of the 28th IEEE International Parallel &amp; Distributed Processing Symposium, pp. 501-512, May 2014, Phoenix (Arizona) USA</p>
       </section>
     </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
+    <footer>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
               <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
@@ -65,7 +60,6 @@
             pageTracker._trackPageview();
             } catch(err) {}
           </script>
-
 
   </body>
 </html>
